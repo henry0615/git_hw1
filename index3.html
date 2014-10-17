@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset = "utf-8"/>
+	<title>Ahn's community</title>
+	<link rel = "stylesheet" type = "text/css" href="HW.css"/>
+</head>
+<body>
+	<div id ="wrap">
+		<div id = "top">
+			<div id ="top_left">
+				<img src ="./images/nexen.jpg" alt="넥센히어로즈"/>
+			</div>
+			<div id ="top_right">My Community!!</div>
+		</div>
+		<div id = "navbar">
+			<ul>
+				<li><a href="http://127.0.0.1/HW1-60132285/index.html" class="selected">소개1</a></li>
+				<li><a href="http://127.0.0.1/HW1-60132285/index2.html">
+					소개2
+				</a></li>
+				<li><a href="http://127.0.0.1/HW1-60132285/index3.html">
+					설문조사
+				</a></li>
+			</ul>
+		</div>
+
+		<div id ="content3">
+			<form action="http://127.0.0.1/HW1-60132285/index3.html" method="post">
+				<input type="hidden" name="type" value="user"/>
+				**설문조사**<br/>
+				1.응시자의 성별
+				<input type="radio" name="sex" value="m"/>남
+				<input type="radio" name="sex" value="f"/>여
+				<hr/>
+				2.저의 취미는 무엇일까요?(중복가능)
+				<table border="1">
+					<tbody>
+						<tr>
+							<td><input type="checkbox" name="hobby" value="read"/>독서</td>
+							<td><input type="checkbox" name="hobby" value="sleep"/>숙면</td>
+							<td><input type="checkbox" name="hobby" value="baseball"/>야구</td>
+							<td><input type="checkbox" name="hobby" value="soccer"/>축구</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="hobby" value="bother"/>괴롭힘</td>
+							<td><input type="checkbox" name="hobby" value="study"/>공부</td>
+							<td colspan="2"><input type="checkbox" name="hobby" value="movie"/>영화관람</td>
+						</tr>
+					</tbody>	
+				</table>
+				<hr/>
+				3. 저의 지난 평균 학점은 ?<br/>
+				<input type="radio" name="grade"/>A+
+				<input type="radio" name="grade"/>A0
+				<input type="radio" name="grade"/>B+
+				<input type="radio" name="grade"/>B0
+				<input type="radio" name="grade"/>C+~F
+				<hr/>
+
+				4.이 과제를 하는데 쏟은 시간은?<br/>
+				<input type="radio" name="time"/>1시간 이하 
+				<input type="radio" name="time"/>1시간 ~ 3시간
+				<input type="radio" name="time"/>3시간 ~ 5시간
+				<input type="radio" name="time"/>5시간 이상
+				<hr/>
+			
+				5. 첫인상을 간단하게 써주세요.<br/>
+				<textarea cols="50" rows="10" name="feel"></textarea>
+				<input type="submit"/>
+
+			</form>
+		</div>
+
+		<div id ="footer">copyright © Ahn</div>
+	</div>
+</body>
+</html>
+
+

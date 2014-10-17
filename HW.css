@@ -1,0 +1,90 @@
+/* css for HW1-60132285 */
+html{color:#111;
+	background:#222; 
+	padding:20px 0;
+	font:"맑은 고딕", "Malgun Gothic", "굴림", Arial, Tahoma;
+}
+ul{list-style-type: none;}
+/* layout */
+#wrap{
+	background-color:#EEE; margin:0px auto; width: 840px;
+	
+}
+
+/* top (page 1,2,3) */
+#top_left{
+	background-color: #64AFE9;
+	width:830px;
+	padding:0px 5px; 
+	margin:auto 0px;
+	text-align: center;
+ }
+#top_right{
+	background-color: #3d4;
+	width:830px;
+	padding:10px 5px;
+	color:#615;
+	text-align:right;
+	font-style: italic;
+}
+#navbar{
+	width:840px;
+	height:100px; 
+}
+#navbar ul li{float:left;}
+#navbar ul li a{
+	width:80px;
+	color:#A22;
+	text-decoration: none;
+	display:block;
+	text-align: left;
+	font:bold 12px/20px Tahoma;
+	margin:auto;
+}
+#navbar ul li a.selected{
+	background-color: #EEA;
+}
+#navbar ul li a:hover{
+	background-color: #EEC
+}
+/* page 1 content */
+#content{
+	margin: 0px 80px 100px 100px;
+}
+#content_left{
+	float:left;
+}
+#content_right{
+	padding-left:200px;
+	font-size: 20px;
+	line-height: 40px;
+}
+/* page 2 content */
+#content2 table{
+	background-color: #Ecc;
+	padding:5px;
+	margin-left:140px; margin-bottom:25px;
+	background-position: bottom;
+	border:dotted white;
+}
+#content2_pic{
+	text-align: center;
+}
+/* page 3 content */
+#content3{
+	margin-left: 30px;
+}
+#content3 table{
+	background-color: #367;
+}
+
+/* footer page(1,2,3) */
+#footer{
+	margin:15px;
+	text-align: right;
+	font-weight: bold;
+	font-style:italic; 
+	font-size: 20px;
+	color:#615;
+}
+
